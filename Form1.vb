@@ -5,7 +5,7 @@
     Public FR_flag, NS_flag As Short
 
 
-
+    ' Form load
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         For Each sp As String In My.Computer.Ports.SerialPortNames
             ComboBox1.Items.Add(sp)
